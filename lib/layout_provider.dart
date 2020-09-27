@@ -13,7 +13,9 @@ class LayoutProvider extends InheritedWidget {
   LayoutProvider(
       this._controller, Widget Function(BuildContext context) _builder,
       {Key key})
-      : super(child: _LayoutWidget(_controller, _builder), key: key);
+      : super(child: _LayoutWidget(_controller, _builder), key: key) {
+    controller.updateLayoutData();
+  }
   @override
   bool updateShouldNotify(LayoutProvider oldWidget) {
     return true;

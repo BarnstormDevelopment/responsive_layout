@@ -8,7 +8,7 @@ import 'layout_type.dart';
 /// Sources data from [MediaQueryData] object.
 class LayoutData {
   /// Default breakpoints that are used if none are passed.
-  static const Map _defaultBreakpoints = {
+  static const Map<LayoutType, double> _defaultBreakpoints = {
     LayoutType.xs: 480.0,
     LayoutType.sm: 768.0,
     LayoutType.md: 1024.0,
