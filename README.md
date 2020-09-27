@@ -33,4 +33,4 @@ LayoutController controller;
 ```
 
 ## Documentation
-TBA
+[API Documentation](https://pub.dev/documentation/responsive_layout/latest/)
